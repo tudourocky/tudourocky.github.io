@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on 土豆泥的博客</title>
+    <link>https://tudourocky.github.io/post/</link>
+    <description>Recent content in Posts on 土豆泥的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Wed, 24 Jun 2020 18:19:32 -0700</lastBuildDate>
+    
+	<atom:link href="https://tudourocky.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Object oriented programming</title>
+      <link>https://tudourocky.github.io/post/object_oriented_programming/</link>
+      <pubDate>Wed, 24 Jun 2020 18:19:32 -0700</pubDate>
+      
+      <guid>https://tudourocky.github.io/post/object_oriented_programming/</guid>
+      <description>OOP - Object Oriented Programming Object-oriented programming (OOP) is a computer programming model that organizes software design around data, or objects, rather than functions and logic. An object can be defined as a data field that has unique attributes and behavior.
+Object In object-oriented programming (OOP), objects are the things you think about first in designing a program and they are also the units of code that are eventually derived from the process. In between, each object is made into a generic class of object and even more generic classes are defined so that objects can share models and reuse the class definitions in their code. Each object is an instance of a particular class or subclass with the class&amp;rsquo;s own methods or procedures and data variables. An object is what actually runs in the computer.</description>
+    </item>
+    
+    <item>
+      <title>Java_Basics2</title>
+      <link>https://tudourocky.github.io/post/Java_Basics2/</link>
+      <pubDate>Wed, 24 Jun 2020 13:27:33 -0700</pubDate>
+      
+      <guid>https://tudourocky.github.io/post/Java_Basics2/</guid>
+      <description>Control Statements If statement if the condition given in the if function is ture, it will run the code within this condition.
+if the condition given is false, the code within the function will be skipped.
+1 2 3 4 5  Boolean a = true, b = false; if(a){ // if a is true, keep going.  System.out.println(&amp;#34;Hello&amp;#34;); }   Else if statement 1 2 3 4 5 6 7 8 9 10 11  Boolean a = true, b = false; if(b){ System.out.println(&amp;#34;Hello&amp;#34;); } else if(!b){ System.out.println(&amp;#34;2&amp;#34;); } else{ System.out.println(&amp;#34;else&amp;#34;); }   Repetition statements While statement 1 2 3 4 5 6  int x = 4; while (x &amp;lt; 10){ //if this is ture, the code within it will be run.  System.out.println(x); x++; // if this is not here, the loop will become an infinite loop.</description>
+    </item>
+    
+    <item>
+      <title>Java_Basics</title>
+      <link>https://tudourocky.github.io/post/Java_Basics/</link>
+      <pubDate>Wed, 24 Jun 2020 09:21:10 -0700</pubDate>
+      
+      <guid>https://tudourocky.github.io/post/Java_Basics/</guid>
+      <description>Variables Variable types:
+ Int - integers Double - decimal numbers Boolean - true or false  1 2 3 4 5 6 7  int a; double b; boolean c; a = 4; b = 5.5; c = false;   String Strings are objects
+1 2 3 4 5  String s = &amp;#34;Hello&amp;#34;; String s1 = &amp;#34;Bye&amp;#34;; // combline string can be done by the following command String end = s + s1; end += &amp;#34;farewell&amp;#34;;   Comments Use // or /* */ to create comments
+1 2 3  // comment /* line1 line2 */   Operators = + - _ / += -= _= /=
+1 2 3  int a = 1; a += 2; // a = a+2   1 2 3 4 5  int a = 0; a ++; //a = a+1 a --; //a = a-1   Printing Print function:</description>
+    </item>
+    
+    <item>
+      <title>Markdown</title>
+      <link>https://tudourocky.github.io/post/Markdown/</link>
+      <pubDate>Tue, 23 Jun 2020 14:09:22 -0700</pubDate>
+      
+      <guid>https://tudourocky.github.io/post/Markdown/</guid>
+      <description>Markdown  Headings Heading 1 1  # Heading 1   Heading 2 1  ## Heading 2   Heading 3 1  ### Heading 3   Heading 4 1  #### Heading 4    There are 6 levels of headings in total.   Emphasis Normal emphasis, aka italics:
+asterisks
+underscores
+Strong emphasis, aka bold:
+asterisks
+underscores
+Combined emphasis:
+asterisks and underscores
+Strikethrough:
+Scratch this.
+1 2 3 4 5 6 7  Emphasis, aka italics, with _asterisks_ or _underscores_. Strong emphasis, aka bold, with **asterisks** or **underscores**. Combined emphasis with **asterisks and _underscores_**. Strikethrough uses two tildes. ~~Scratch this.~~    Lists 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16  1. First ordered list item 2. Another item - Unordered sub-list. 1. Actual numbers don&amp;#39;t matter, just that it&amp;#39;s a number 1.</description>
+    </item>
+    
+    <item>
+      <title>CS1 Notes</title>
+      <link>https://tudourocky.github.io/post/CS1/</link>
+      <pubDate>Sun, 21 Jun 2020 23:15:15 -0700</pubDate>
+      
+      <guid>https://tudourocky.github.io/post/CS1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hugo/git下载和安装过程</title>
+      <link>https://tudourocky.github.io/post/hugo_git_install/</link>
+      <pubDate>Sat, 20 Jun 2020 12:59:22 -0700</pubDate>
+      
+      <guid>https://tudourocky.github.io/post/hugo_git_install/</guid>
+      <description>hugo 安装方法 下载 hugo 在 Google 中搜索 hugo releases 进入https://github.com/gohugoio/hugo/releases 找到 hugo_current version_Windows-64bit.zip 点击连接下载 安装 hugo 在 C 盘中创建一个新文件夹，后在文件夹中新建一个叫做 bin 的文件夹 将下载下来的 zip 文件解压到 C:/Hugo/bin 中 在 Windows 的搜索功能中搜索 environment，后打开</description>
+    </item>
+    
+    <item>
+      <title>Hugo博客使用方式</title>
+      <link>https://tudourocky.github.io/post/blog2/</link>
+      <pubDate>Fri, 19 Jun 2020 20:05:24 -0700</pubDate>
+      
+      <guid>https://tudourocky.github.io/post/blog2/</guid>
+      <description>Hugo 博客使用方法 安装 hugo 查看 hugo 版本 hugo version ls -l 查看文件中有哪些文件 hugo new site myblog 创建 blog 下载主题 git clone https://github.com/flysnow-org/maupassant-hugo themes/maupassant hugo server -t maupassant &amp;ndash;buildDrafts 打开/启动博客 部署远端 hugo &amp;ndash;theme=maupassant &amp;ndash;baseUrl=&amp;quot;https://tudourocky.github.io/&amp;rdquo; &amp;ndash;buildDrafts 创建新博客 hugo new post/blog.md public 将 public 文件夹推到 github 上 git init git add git commit -m &amp;ldquo;我的 hugo 博客的第一次提交&amp;rdquo; git remote add origin https://github.com/tudourocky/tudourocky.github.io.git git push -u origin master 更新博客方法 新建一个 markdo</description>
+    </item>
+    
+    <item>
+      <title>入坑Java开发的自学之路</title>
+      <link>https://tudourocky.github.io/post/blog/</link>
+      <pubDate>Fri, 19 Jun 2020 20:05:11 -0700</pubDate>
+      
+      <guid>https://tudourocky.github.io/post/blog/</guid>
+      <description>www.codesheep.cn 入坑 Java 开发的自学之路 基础知识 编程语言: Java 基本算法 基本网络知识: TCP/IP HTTP/HTTPS 基本的设计模式 工具开发 操作系统: Linux (CentOS\Ubuntu\Fr\e..) 代码管理: SVN / Git 持续集成 （CI/CD）: jenkins Java 的项目管理工具: Maven / Gradle 框架方面 应用层框架 ssh spring + structs + hibernate ssm: spring springmvc mybatis spring boot 各种中间件 MQ 消息队列 RPC 通信框架 gRPC thrift dubbo springcloud elasticsearch 数据库 搜索引擎 数据库 SQL: MySQL / Postgre</description>
+    </item>
+    
+  </channel>
+</rss>
