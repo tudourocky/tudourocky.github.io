@@ -6,10 +6,21 @@
     <description>Recent content on 土豆泥的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 24 Jun 2020 18:19:32 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 25 Jun 2020 10:47:27 -0700</lastBuildDate>
     
 	<atom:link href="https://tudourocky.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Java_OOP</title>
+      <link>https://tudourocky.github.io/post/Java_OOP/</link>
+      <pubDate>Thu, 25 Jun 2020 10:47:27 -0700</pubDate>
+      
+      <guid>https://tudourocky.github.io/post/Java_OOP/</guid>
+      <description>Difference between private class and public class public means you can access it anywhere while private means you can only access it inside its own class.
+Just to note all private, protected or public modifier are not applicable to local variables in Java. a local variable can only be final in java.
+Human Class  Creates a human. Each human has a name and an age.  1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36  package VideoProj; public abstract class Human { //abstract classes can not be instantiated 	private String name; private int age; public Human() { // constructors 	name = &amp;#34;&amp;#34;; age = 0; } public Human(String nm, int ag) { // constructors 	name = nm; age = ag; } public String getName() { // accessor 	return name; } public int getAge() { // accessor access a value 	return age; } public abstract int ageInDogYears(); // abstract method  public void setName(String s) { // mutator changes a state of an object 	name = s; } //override 	public String toString(){ return &amp;#34;Human: &amp;#34; + name + &amp;#34;, Age: &amp;#34; + age; } }   Athlete class 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33  package VideoProj; public class Athlete extends Human{ //the extends Human makes Athlete a subclass of the class human 	private String sport; public Athlete() { // constructor  //	super();  //super must be used on the first line.</description>
+    </item>
     
     <item>
       <title>Object oriented programming</title>
