@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>road map on 土豆泥的博客</title>
+    <link>https://tudourocky.github.io/tags/road-map/</link>
+    <description>Recent content in road map on 土豆泥的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Fri, 19 Jun 2020 20:05:11 -0700</lastBuildDate>
+    
+	<atom:link href="https://tudourocky.github.io/tags/road-map/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>入坑Java开发的自学之路</title>
+      <link>https://tudourocky.github.io/post/blog/</link>
+      <pubDate>Fri, 19 Jun 2020 20:05:11 -0700</pubDate>
+      
+      <guid>https://tudourocky.github.io/post/blog/</guid>
+      <description>www.codesheep.cn 入坑 Java 开发的自学之路 基础知识 编程语言: Java 基本算法 基本网络知识: TCP/IP HTTP/HTTPS 基本的设计模式 工具开发 操作系统: Linux (CentOS\Ubuntu\Fr\e..) 代码管理: SVN / Git 持续集成 （CI/CD）: jenkins Java 的项目管理工具: Maven / Gradle 框架方面 应用层框架 ssh spring + structs + hibernate ssm: spring springmvc mybatis spring boot 各种中间件 MQ 消息队列 RPC 通信框架 gRPC thrift dubbo springcloud elasticsearch 数据库 搜索引擎 数据库 SQL: MySQL / Postgre</description>
+    </item>
+    
+  </channel>
+</rss>

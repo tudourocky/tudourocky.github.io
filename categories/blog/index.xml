@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>blog on 土豆泥的博客</title>
+    <link>https://tudourocky.github.io/categories/blog/</link>
+    <description>Recent content in blog on 土豆泥的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Thu, 25 Jun 2020 19:41:12 -0700</lastBuildDate>
+    
+	<atom:link href="https://tudourocky.github.io/categories/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Tag_Category</title>
+      <link>https://tudourocky.github.io/post/Tag_Category/</link>
+      <pubDate>Thu, 25 Jun 2020 19:41:12 -0700</pubDate>
+      
+      <guid>https://tudourocky.github.io/post/Tag_Category/</guid>
+      <description>In your config.toml =
+1 2 3  [taxonomies] tag = &amp;#34;tags&amp;#34; category = &amp;#34;categories&amp;#34;   Then in the yaml front matter for content/blog/examplepost.md:
+1 2 3  title: My Blog Post categories: [development, publishing] tags: [hugo,content,static site generator]   </description>
+    </item>
+    
+    <item>
+      <title>Hugo博客使用方式</title>
+      <link>https://tudourocky.github.io/post/blog2/</link>
+      <pubDate>Fri, 19 Jun 2020 20:05:24 -0700</pubDate>
+      
+      <guid>https://tudourocky.github.io/post/blog2/</guid>
+      <description>Hugo 博客使用方法 安装 hugo 查看 hugo 版本 hugo version ls -l 查看文件中有哪些文件 hugo new site myblog 创建 blog 下载主题 git clone https://github.com/flysnow-org/maupassant-hugo themes/maupassant hugo server -t maupassant &amp;ndash;buildDrafts 打开/启动博客 部署远端 hugo &amp;ndash;theme=maupassant &amp;ndash;baseUrl=&amp;quot;https://tudourocky.github.io/&amp;rdquo; &amp;ndash;buildDrafts 创建新博客 hugo new post/blog.md public 将 public 文件夹推到 github 上 git init git add git commit -m &amp;ldquo;我的 hugo 博客的第一次提交&amp;rdquo; git remote add origin https://github.com/tudourocky/tudourocky.github.io.git git push -u origin master 更新博客方法 新建一个 markdo</description>
+    </item>
+    
+  </channel>
+</rss>

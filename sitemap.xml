@@ -3,22 +3,62 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://tudourocky.github.io/categories/blog/</loc>
+    <lastmod>2020-06-25T19:41:12-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tudourocky.github.io/categories/</loc>
+    <lastmod>2020-06-25T19:41:12-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tudourocky.github.io/tags/Hugo-Usage/</loc>
+    <lastmod>2020-06-25T19:41:12-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tudourocky.github.io/post/</loc>
+    <lastmod>2020-06-25T19:41:12-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tudourocky.github.io/post/Tag_Category/</loc>
+    <lastmod>2020-06-25T19:41:12-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tudourocky.github.io/tags/</loc>
+    <lastmod>2020-06-25T19:41:12-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tudourocky.github.io/</loc>
+    <lastmod>2020-06-25T19:41:12-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tudourocky.github.io/categories/I.T/</loc>
+    <lastmod>2020-06-25T10:47:27-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tudourocky.github.io/tags/java/</loc>
+    <lastmod>2020-06-25T10:47:27-07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://tudourocky.github.io/post/Java_OOP/</loc>
     <lastmod>2020-06-25T10:47:27-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://tudourocky.github.io/post/</loc>
-    <lastmod>2020-06-25T10:47:27-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tudourocky.github.io/</loc>
-    <lastmod>2020-06-25T10:47:27-07:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://tudourocky.github.io/post/object_oriented_programming/</loc>
+    <lastmod>2020-06-24T18:19:32-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tudourocky.github.io/tags/Vocab/</loc>
     <lastmod>2020-06-24T18:19:32-07:00</lastmod>
   </url>
   
@@ -38,6 +78,11 @@
   </url>
   
   <url>
+    <loc>https://tudourocky.github.io/tags/Markdown/</loc>
+    <lastmod>2020-06-23T14:09:22-07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://tudourocky.github.io/post/Markdown/</loc>
     <lastmod>2020-06-23T14:09:22-07:00</lastmod>
   </url>
@@ -45,6 +90,16 @@
   <url>
     <loc>https://tudourocky.github.io/post/CS1/</loc>
     <lastmod>2020-06-21T23:15:15-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tudourocky.github.io/tags/Git/</loc>
+    <lastmod>2020-06-20T12:59:22-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tudourocky.github.io/tags/Hugo/</loc>
+    <lastmod>2020-06-20T12:59:22-07:00</lastmod>
   </url>
   
   <url>
@@ -58,16 +113,13 @@
   </url>
   
   <url>
-    <loc>https://tudourocky.github.io/post/blog/</loc>
+    <loc>https://tudourocky.github.io/tags/road-map/</loc>
     <lastmod>2020-06-19T20:05:11-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://tudourocky.github.io/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>https://tudourocky.github.io/tags/</loc>
+    <loc>https://tudourocky.github.io/post/blog/</loc>
+    <lastmod>2020-06-19T20:05:11-07:00</lastmod>
   </url>
   
   <url>

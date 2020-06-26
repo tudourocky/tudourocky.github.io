@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Markdown on 土豆泥的博客</title>
+    <link>https://tudourocky.github.io/tags/Markdown/</link>
+    <description>Recent content in Markdown on 土豆泥的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Tue, 23 Jun 2020 14:09:22 -0700</lastBuildDate>
+    
+	<atom:link href="https://tudourocky.github.io/tags/Markdown/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Markdown</title>
+      <link>https://tudourocky.github.io/post/Markdown/</link>
+      <pubDate>Tue, 23 Jun 2020 14:09:22 -0700</pubDate>
+      
+      <guid>https://tudourocky.github.io/post/Markdown/</guid>
+      <description>Markdown  Headings Heading 1 1  # Heading 1   Heading 2 1  ## Heading 2   Heading 3 1  ### Heading 3   Heading 4 1  #### Heading 4    There are 6 levels of headings in total.   Emphasis Normal emphasis, aka italics:
+asterisks
+underscores
+Strong emphasis, aka bold:
+asterisks
+underscores
+Combined emphasis:
+asterisks and underscores
+Strikethrough:
+Scratch this.
+1 2 3 4 5 6 7  Emphasis, aka italics, with _asterisks_ or _underscores_. Strong emphasis, aka bold, with **asterisks** or **underscores**. Combined emphasis with **asterisks and _underscores_**. Strikethrough uses two tildes. ~~Scratch this.~~    Lists 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16  1. First ordered list item 2. Another item - Unordered sub-list. 1. Actual numbers don&amp;#39;t matter, just that it&amp;#39;s a number 1.</description>
+    </item>
+    
+  </channel>
+</rss>
