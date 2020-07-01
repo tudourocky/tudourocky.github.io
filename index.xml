@@ -6,10 +6,19 @@
     <description>Recent content on 土豆泥的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 25 Jun 2020 19:41:12 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 30 Jun 2020 18:44:06 -0700</lastBuildDate>
     
 	<atom:link href="https://tudourocky.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Java 简介</title>
+      <link>https://tudourocky.github.io/post/Java_Basics3/</link>
+      <pubDate>Tue, 30 Jun 2020 18:44:06 -0700</pubDate>
+      
+      <guid>https://tudourocky.github.io/post/Java_Basics3/</guid>
+      <description>简介 Java 是由 Sun Microsystems 公司于 1995 年 5 月推出的 Java 面向对象程序设计语言和 Java 平台的总称。由 James Gosling 和同事们共同研发，并在 1995 年正式推出。 Java 分为三个体系: JavaSE(J2SE)(Java2 Platform Standard Edition，java 平台标准版) JavaEE(J2EE)(Java 2 Platform,Enterprise Edition，java 平台企业版) JavaME(J2ME)(Java 2 Platform Micro Edition，java 平台微型版) 2005 年 6 月，JavaOn</description>
+    </item>
     
     <item>
       <title>Tag_Category</title>
@@ -93,15 +102,6 @@ asterisks and underscores
 Strikethrough:
 Scratch this.
 1 2 3 4 5 6 7  Emphasis, aka italics, with _asterisks_ or _underscores_. Strong emphasis, aka bold, with **asterisks** or **underscores**. Combined emphasis with **asterisks and _underscores_**. Strikethrough uses two tildes. ~~Scratch this.~~    Lists 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16  1. First ordered list item 2. Another item - Unordered sub-list. 1. Actual numbers don&amp;#39;t matter, just that it&amp;#39;s a number 1.</description>
-    </item>
-    
-    <item>
-      <title>CS1 Notes</title>
-      <link>https://tudourocky.github.io/post/CS1/</link>
-      <pubDate>Sun, 21 Jun 2020 23:15:15 -0700</pubDate>
-      
-      <guid>https://tudourocky.github.io/post/CS1/</guid>
-      <description> There are currently no notes on this topic I will do part of it tomorrow  </description>
     </item>
     
     <item>
