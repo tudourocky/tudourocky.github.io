@@ -6,10 +6,19 @@
     <description>Recent content in Posts on 土豆泥的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 30 Jun 2020 18:44:06 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 07 Jul 2020 15:45:39 -0700</lastBuildDate>
     
 	<atom:link href="https://tudourocky.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Java 对象和类</title>
+      <link>https://tudourocky.github.io/post/Java_Basics_class/</link>
+      <pubDate>Tue, 07 Jul 2020 15:45:39 -0700</pubDate>
+      
+      <guid>https://tudourocky.github.io/post/Java_Basics_class/</guid>
+      <description>Java 对象和类 Java 作为一种面向对象语言。支持以下基本概念。 多态 继承 封装 抽象 类 对象 实例 方法 消息解析 对象：对象是类的一个实例，有状态和行为。例如，一条狗是一个对象，它的状态有：颜色、名字、品种；行为有：摇尾巴、叫、吃等。 类：类是一个模板，它描述一类对象的行为和状态。 Java 中的对象 现在让我们深入</description>
+    </item>
     
     <item>
       <title>Java 简介</title>
