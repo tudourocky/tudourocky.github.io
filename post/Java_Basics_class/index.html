@@ -147,21 +147,17 @@
     <div class="post-toc-content">
         <nav id="TableOfContents">
   <ul>
-    <li>
-      <ul>
-        <li><a href="#java-对象和类">Java 对象和类</a></li>
-        <li><a href="#java-中的对象">Java 中的对象</a></li>
-        <li><a href="#java-中的类">Java 中的类</a></li>
-        <li><a href="#构造方法">构造方法</a></li>
-        <li><a href="#创建对象">创建对象</a></li>
-        <li><a href="#访问实例变量和方法">访问实例变量和方法</a></li>
-        <li><a href="#实例">实例</a></li>
-        <li><a href="#源文件声明规则">源文件声明规则</a></li>
-        <li><a href="#java-包">Java 包</a></li>
-        <li><a href="#import-语句">Import 语句</a></li>
-        <li><a href="#一个简单的例子">一个简单的例子</a></li>
-      </ul>
-    </li>
+    <li><a href="#java-对象和类">Java 对象和类</a></li>
+    <li><a href="#java-中的对象">Java 中的对象</a></li>
+    <li><a href="#java-中的类">Java 中的类</a></li>
+    <li><a href="#构造方法">构造方法</a></li>
+    <li><a href="#创建对象">创建对象</a></li>
+    <li><a href="#访问实例变量和方法">访问实例变量和方法</a></li>
+    <li><a href="#实例">实例</a></li>
+    <li><a href="#源文件声明规则">源文件声明规则</a></li>
+    <li><a href="#java-包">Java 包</a></li>
+    <li><a href="#import-语句">Import 语句</a></li>
+    <li><a href="#一个简单的例子">一个简单的例子</a></li>
   </ul>
 </nav>
     </div>
@@ -216,7 +212,7 @@
         
         
         <div class="post-content">
-            <h3 id="java-对象和类">Java 对象和类</h3>
+            <h2 id="java-对象和类">Java 对象和类</h2>
 <p>Java 作为一种面向对象语言。支持以下基本概念。</p>
 <ul>
 <li>
@@ -254,13 +250,13 @@
 </li>
 </ul>
 <hr>
-<h3 id="java-中的对象">Java 中的对象</h3>
+<h2 id="java-中的对象">Java 中的对象</h2>
 <p>现在让我们深入了解什么是对象。看看周围真实的世界，会发现身边有很多对象，车，狗，人等等。所有这些对象都有自己的状态和行为。</p>
 <p>拿一条狗来举例，它的状态有：名字、品种、颜色，行为有：叫、摇尾巴和跑。</p>
 <p>对比现实对象和软件对象，它们之间十分相似。</p>
 <p>软件对象也有状态和行为。软件对象的状态就是属性，行为通过方法体现。</p>
 <p>在软件开发中，方法操作对象内部状态的改变，对象的相互调用也是通过方法来完成。</p>
-<h3 id="java-中的类">Java 中的类</h3>
+<h2 id="java-中的类">Java 中的类</h2>
 <p>类可以看成是创建 Java 对象的模板。</p>
 <p>通过下面一个简单的类来理解下 Java 中类的定义：</p>
 <div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
@@ -309,7 +305,7 @@
 </ul>
 <p>一个类可以拥有多个方法，在上面的例子中：barking()、hungry()和 sleeping()都是 Dog 类的方法。</p>
 <hr>
-<h3 id="构造方法">构造方法</h3>
+<h2 id="构造方法">构造方法</h2>
 <p>每个类都有构造方法。如果没有显式地为类定义构造方法，Java 编译器将会为该类提供一个默认构造方法。</p>
 <p>在创建一个对象的时候，至少要调用一个构造方法。构造方法的名称必须与类同名，一个类可以有多个构造方法。</p>
 <p>下面是一个构造方法示例：</p>
@@ -336,7 +332,7 @@
 </code></pre></td></tr></table>
 </div>
 </div><hr>
-<h3 id="创建对象">创建对象</h3>
+<h2 id="创建对象">创建对象</h2>
 <p>对象是根据类创建的。在 Java 中，使用关键字 new 来创建一个新的对象。创建对象需要以下三步：</p>
 <p><strong>声明</strong>：声明一个对象，包括对象名称和对象类型。
 <strong>实例化</strong>：使用关键字 new 来创建一个对象。
@@ -371,7 +367,7 @@
 </div><p>编译并运行上面的程序，会打印出下面的结果：</p>
 <pre><code>Passed Name is :tommy
 </code></pre><hr>
-<h3 id="访问实例变量和方法">访问实例变量和方法</h3>
+<h2 id="访问实例变量和方法">访问实例变量和方法</h2>
 <p>通过已创建的对象来访问成员变量和成员方法，如下所示：</p>
 <div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
@@ -392,7 +388,7 @@ ObjectReference<span style="color:#000;font-weight:bold">.</span><span style="co
 </code></pre></td></tr></table>
 </div>
 </div><hr>
-<h3 id="实例">实例</h3>
+<h2 id="实例">实例</h2>
 <p>下面的例子展示如何访问实例变量和调用成员方法：</p>
 <div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
@@ -459,7 +455,7 @@ ObjectReference<span style="color:#000;font-weight:bold">.</span><span style="co
 Puppy's age is :2
 Variable Value :2
 </code></pre><hr>
-<h3 id="源文件声明规则">源文件声明规则</h3>
+<h2 id="源文件声明规则">源文件声明规则</h2>
 <p>在本节的最后部分，我们将学习源文件的声明规则。当在一个源文件中定义多个类，并且还有 import 语句和 package 语句时，要特别注意这些规则。</p>
 <ul>
 <li>一个源文件中只能有一个 public 类</li>
@@ -472,9 +468,9 @@ Variable Value :2
 <p>类有若干种访问级别，并且类也分不同的类型：抽象类和 final 类等。这些将在访问控制章节介绍。</p>
 <p>除了上面提到的几种类型，Java 还有一些特殊的类，如：内部类、匿名类。</p>
 <hr>
-<h3 id="java-包">Java 包</h3>
+<h2 id="java-包">Java 包</h2>
 <p>包主要用来对类和接口进行分类。当开发 Java 程序时，可能编写成百上千的类，因此很有必要对类和接口进行分类。</p>
-<h3 id="import-语句">Import 语句</h3>
+<h2 id="import-语句">Import 语句</h2>
 <p>在 Java 中，如果给出一个完整的限定名，包括包名、类名，那么 Java 编译器就可以很容易地定位到源代码或者类。Import 语句就是用来提供一个合理的路径，使得编译器可以找到某个类。
 例如，下面的命令行将会命令编译器载入 java_installation/java/io 路径下的所有类</p>
 <div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
@@ -486,7 +482,7 @@ Variable Value :2
 </code></pre></td></tr></table>
 </div>
 </div><hr>
-<h3 id="一个简单的例子">一个简单的例子</h3>
+<h2 id="一个简单的例子">一个简单的例子</h2>
 <p>在该例子中，我们创建两个类：Employee 和 EmployeeTest。</p>
 <p>首先打开文本编辑器，把下面的代码粘贴进去。注意将文件保存为 Employee.java。</p>
 <p>Employee 类有四个成员变量：name、age、designation 和 salary。该类显式声明了一个构造方法，该方法只有一个参数。</p>
