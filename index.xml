@@ -2,37 +2,51 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Hugo Simple</title>
-    <link>https://tudourocky.github.io/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Hugo Simple</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>shaolong.chen@outlook.it (Shaolong Chen)</managingEditor>
     <webMaster>shaolong.chen@outlook.it (Shaolong Chen)</webMaster>
-    <copyright>© 2024 Shaolong Chen</copyright>
-    <lastBuildDate>Tue, 27 Feb 2024 21:22:21 -0500</lastBuildDate>
-    <atom:link href="https://tudourocky.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2024 Allan Su</copyright>
+    <lastBuildDate>Sat, 02 Mar 2024 15:58:28 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>1A</title>
+      <link>http://localhost:1313/1a/</link>
+      <pubDate>Sat, 02 Mar 2024 15:58:28 -0500</pubDate><author>shaolong.chen@outlook.it (Shaolong Chen)</author>
+      <guid>http://localhost:1313/1a/</guid>
+      <description>The 1A experience will be divided into 4 different sections including the transition from highschool to university, courses in 1A, the COOP search, as well as some random lesson that I learned.
+The Transition 1A Courses COOP Random Tips </description>
+      <content:encoded><![CDATA[<p>The 1A experience will be divided into 4 different sections including the transition from highschool to university, courses in 1A, the COOP search, as well as some random lesson that I learned.</p>
+<h2 id="the-transition">The Transition</h2>
+<h2 id="1a-courses">1A Courses</h2>
+<h2 id="coop">COOP</h2>
+<h2 id="random-tips">Random Tips</h2>
+]]></content:encoded>
+    </item>
     <item>
       <title>Hugo Site Tutorial</title>
-      <link>https://tudourocky.github.io/hugo-site-tutorial/</link>
+      <link>http://localhost:1313/hugo-site-tutorial/</link>
       <pubDate>Tue, 27 Feb 2024 21:22:21 -0500</pubDate><author>shaolong.chen@outlook.it (Shaolong Chen)</author>
-      <guid>https://tudourocky.github.io/hugo-site-tutorial/</guid>
+      <guid>http://localhost:1313/hugo-site-tutorial/</guid>
       <description>How to create a blog using Hugo and Github Pages Introduction on Hugo and Github Pages What is Github Pages Github Pages is a group of static web pages that are hosted and deployed through Github.
 What is Hugo Hugo is a Static Site Generator written in Go to translate Markdown files into HTML files.
 Prerequisites Understanding of basic command-line commands Installed Git and Git basics A GitHub account A code editor such as VSCode Install Hugo You will need a package manager to install the required packages.</description>
-      <content:encoded><![CDATA[<h1 id="how-to-create-a-blog-using-hugo-and-github-pages">How to create a blog using Hugo and Github Pages</h1>
-<h2 id="introduction-on-hugo-and-github-pages">Introduction on Hugo and Github Pages</h2>
-<h3 id="what-is-github-pages">What is Github Pages</h3>
+      <content:encoded><![CDATA[<h2 id="how-to-create-a-blog-using-hugo-and-github-pages">How to create a blog using Hugo and Github Pages</h2>
+<h3 id="introduction-on-hugo-and-github-pages">Introduction on Hugo and Github Pages</h3>
+<h4 id="what-is-github-pages">What is Github Pages</h4>
 <p>Github Pages is a group of static web pages that are hosted and deployed through Github.</p>
-<h3 id="what-is-hugo">What is Hugo</h3>
+<h4 id="what-is-hugo">What is Hugo</h4>
 <p>Hugo is a Static Site Generator written in Go to translate Markdown files into HTML files.</p>
-<h3 id="prerequisites">Prerequisites</h3>
+<h4 id="prerequisites">Prerequisites</h4>
 <ol>
 <li>Understanding of basic command-line commands</li>
 <li>Installed Git and Git basics</li>
 <li>A GitHub account</li>
 <li>A code editor such as VSCode</li>
 </ol>
-<h2 id="install-hugo">Install Hugo</h2>
+<h3 id="install-hugo">Install Hugo</h3>
 <ol>
 <li>You will need a package manager to install the required packages. A list of options are provided for Windows on the <a href="https://gohugo.io/installation/windows/">Hugo documentations page</a>.</li>
 <li>After you&rsquo;ve installed a package manager you can install hugo through command prompt. For example:</li>
@@ -54,43 +68,86 @@ Prerequisites Understanding of basic command-line commands Installed Git and Git
 
 
 <pre tabindex="0"><code>hugo version</code></pre>
-<h2 id="creating-the-github-pages-repository">Creating the Github Pages Repository</h2>
+<h3 id="creating-the-github-pages-repository">Creating the Github Pages Repository</h3>
 <ol>
 <li>Name the github pages using the following format: &lt;uername.github.io&gt;, <username> is the name of your github account.</li>
 <li>Make the repository public.</li>
 <li>Create a README file, this will allow main to be set as the default branch which is helpful when we push our hugo blog onto github.</li>
 </ol>
+<h3 id="clone-the-repo-to-local">Clone the Repo to local</h3>
+<ol>
+<li>Open the designated folder in cmd.</li>
+</ol>
+
+
+
+
+
+
+<pre tabindex="0"><code>cd project_name</code></pre>
+<ol start="2">
+<li>Clone the repo into the project folder. This is usually done using SSH with modern Github.</li>
+</ol>
+
+
+
+
+
+
+<pre tabindex="0"><code>git clone &lt;repo_url&gt;</code></pre>
+<h3 id="using-hugo-to-generate-a-site">Using Hugo to generate a site</h3>
+<ol>
+<li>cd into the local repository that was just being cloned.</li>
+<li>The command to create a new website is <code>hugo new site</code>.</li>
+</ol>
+
+
+
+
+
+
+<pre tabindex="0"><code>cd &lt;repo_name&gt;
+hugo new site &lt;site_name&gt;</code></pre>
+<ol start="3">
+<li>Once this command finishes exicuting, 7 folders and 1 file will appear in the repository. These folders includes:
+<ul>
+<li><strong>archetypes</strong>: contains the font matter template of the hugo site.</li>
+<li><strong>content</strong>: contains all the blog content.</li>
+<li><strong>layouts</strong>: layouts that overwrites the default template.</li>
+<li><strong>static</strong>: contains all static files such as images.</li>
+<li><strong>data</strong>: contains other data the Hugo uses when generating the site.</li>
+<li><strong>public:</strong>: contains the static websites generated by Hugo.</li>
+<li><strong>themes</strong>: contains theme files.</li>
+<li><strong>config.toml</strong>: configuration file for the site.</li>
+</ul>
+</li>
+</ol>
+<h3 id="installing-a-hugo-theme">Installing a Hugo theme</h3>
+<ol>
+<li>Find a theme that you like from the <a href="https://themes.gohugo.io/">Hugo Community</a> and follow the installation guide provied in the theme.</li>
+<li>Usually the theme comes with an <code>exampleSite</code>. You can use them by copying and pasting everything in the folder to the main directory.</li>
+<li>In the config.toml file, replace <strong>baseURL</strong> with the url that you are using the deploy the site on. In our case it would be <code>https://username.github.io/</code>.</li>
+<li>In the same file, replace <strong>themes</strong> with the theme that you just installed.</li>
+</ol>
+<h3 id="creating-a-blog-file-using-hugo">Creating a blog file using Hugo</h3>
+<p>The command to create a file is:</p>
+
+
+
+
+
+
+<pre tabindex="0"><code>hugo new xxx.md</code></pre>
+<p>The files creating using this command will use the font matter template contained in the <code>archetypes</code> folder. You can start writting your very first blog in the empty space below the header using Markdown.</p>
+<h3 id="local-testing-and-reviewing">Local testing and reviewing</h3>
+<ol>
+<li>We can previous the website using the command <code>hugo server</code>.</li>
+<li>This command can also be used while we are editing our local Markdown file to previous the site in real time.</li>
+<li>The site can be previewed at local host port 1313 by default.</li>
+</ol>
+<h3 id="publishing-the-website">Publishing the website</h3>
+<p>Hugo saves all the static web files in the public folder. Hence all we need in the Github repository is the public folder.</p>
 ]]></content:encoded>
-    </item>
-    <item>
-      <title>Placeholder Text</title>
-      <link>https://tudourocky.github.io/placeholder-text/</link>
-      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate><author>shaolong.chen@outlook.it (Shaolong Chen)</author>
-      <guid>https://tudourocky.github.io/placeholder-text/</guid>
-      <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>Lorem est tota propiore conpellat pectoribus de pectora summo.</p>
-<p>Redit teque digerit hominumque toris verebor lumina non cervice subde tollit usus habet Arctonque, furores quas nec ferunt. Quoque montibus nunc caluere tempus inhospita parcite confusaque translucet patri vestro qui optatis lumine cognoscere flos nubis! Fronde ipsamque patulos Dryopen deorum.</p>
-<ol>
-<li>Exierant elisi ambit vivere dedere</li>
-<li>Duce pollice</li>
-<li>Eris modo</li>
-<li>Spargitque ferrea quos palude</li>
-</ol>
-<p>Rursus nulli murmur; hastile inridet ut ab gravi sententia! Nomine potitus silentia flumen, sustinet placuit petis in dilapsa erat sunt. Atria tractus malis.</p>
-<ol>
-<li>Comas hunc haec pietate fetum procerum dixit</li>
-<li>Post torum vates letum Tiresia</li>
-<li>Flumen querellas</li>
-<li>Arcanaque montibus omnes</li>
-<li>Quidem et</li>
-</ol>
-<h1 id="vagus-elidunt">Vagus elidunt</h1>
-<p><svg class="canon" xmlns="http://www.w3.org/2000/svg" overflow="visible" viewBox="0 0 496 373" height="373" width="496"><g fill="none"><path stroke="#000" stroke-width=".75" d="M.599 372.348L495.263 1.206M.312.633l494.95 370.853M.312 372.633L247.643.92M248.502.92l246.76 370.566M330.828 123.869V1.134M330.396 1.134L165.104 124.515"></path><path stroke="#ED1C24" stroke-width=".75" d="M275.73 41.616h166.224v249.05H275.73zM54.478 41.616h166.225v249.052H54.478z"></path><path stroke="#000" stroke-width=".75" d="M.479.375h495v372h-495zM247.979.875v372"></path><ellipse cx="498.729" cy="177.625" rx=".75" ry="1.25"></ellipse><ellipse cx="247.229" cy="377.375" rx=".75" ry="1.25"></ellipse></g></svg></p>
-<p><a href="https://en.wikipedia.org/wiki/Canons_of_page_construction#Van_de_Graaf_canon">The Van de Graaf Canon</a></p>
-<h2 id="mane-refeci-capiebant-unda-mulcebat">Mane refeci capiebant unda mulcebat</h2>
-<p>Victa caducifer, malo vulnere contra dicere aurato, ludit regale, voca! Retorsit colit est profanae esse virescere furit nec; iaculi matertera et visa est, viribus. Divesque creatis, tecta novat collumque vulnus est, parvas. <strong>Faces illo pepulere</strong> tempus adest. Tendit flamma, ab opes virum sustinet, sidus sequendo urbis.</p>
-<p>Iubar proles corpore raptos vero auctor imperium; sed et huic: manus caeli Lelegas tu lux. Verbis obstitit intus oblectamina fixis linguisque ausus sperare Echionides cornuaque tenent clausit possit. Omnia putatur. Praeteritae refert ausus; ferebant e primus lora nutat, vici quae mea ipse. Et iter nil spectatae vulnus haerentia iuste et exercebat, sui et.</p>
-<p>Eurytus Hector, materna ipsumque ut Politen, nec, nate, ignari, vernum cohaesit sequitur. Vel <strong>mitis temploque</strong> vocatus, inque alis, <em>oculos nomen</em> non silvis corpore coniunx ne displicet illa. Crescunt non unus, vidit visa quantum inmiti flumina mortis facto sic: undique a alios vincula sunt iactata abdita! Suspenderat ego fuit tendit: luna, ante urbem Propoetides <strong>parte</strong>.</p>]]></content:encoded>
     </item>
   </channel>
 </rss>

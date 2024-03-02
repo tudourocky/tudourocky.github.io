@@ -2,22 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://tudourocky.github.io/hugo-site-tutorial/</loc>
+    <loc>http://localhost:1313/1a/</loc>
+    <lastmod>2024-03-02T15:58:28-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2024-03-02T15:58:28-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/</loc>
+    <lastmod>2024-03-02T15:58:28-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/hugo-site-tutorial/</loc>
     <lastmod>2024-02-27T21:22:21-05:00</lastmod>
-  </url><url>
-    <loc>https://tudourocky.github.io/blog/</loc>
-    <lastmod>2024-02-27T21:22:21-05:00</lastmod>
-  </url><url>
-    <loc>https://tudourocky.github.io/</loc>
-    <lastmod>2024-02-27T21:22:21-05:00</lastmod>
-  </url><url>
-    <loc>https://tudourocky.github.io/blog/markdown/</loc>
-    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://tudourocky.github.io/placeholder-text/</loc>
-    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://tudourocky.github.io/blog/text/</loc>
-    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
   </url>
 </urlset>
