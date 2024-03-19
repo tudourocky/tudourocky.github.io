@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Hugo Simple</title>
-    <link>http://localhost:1313/</link>
+    <link>https://tudourocky.github.io/</link>
     <description>Recent content on Hugo Simple</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
@@ -10,26 +10,70 @@
     <webMaster>shaolong.chen@outlook.it (Shaolong Chen)</webMaster>
     <copyright>© 2024 Allan Su</copyright>
     <lastBuildDate>Sat, 02 Mar 2024 15:58:28 -0500</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://tudourocky.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>1A</title>
-      <link>http://localhost:1313/1a/</link>
+      <link>https://tudourocky.github.io/1a/</link>
       <pubDate>Sat, 02 Mar 2024 15:58:28 -0500</pubDate><author>shaolong.chen@outlook.it (Shaolong Chen)</author>
-      <guid>http://localhost:1313/1a/</guid>
+      <guid>https://tudourocky.github.io/1a/</guid>
       <description>The 1A experience will be divided into 4 different sections including the transition from highschool to university, courses in 1A, the COOP search, as well as some random lesson that I learned.
-The Transition 1A Courses COOP Random Tips </description>
+The Transition Transitioning into university is really difficult. We now all of the sudden have to do our own laundry, make our own food, and manage our time all by ourselves. This is a completely new experience and is an exciting thing.</description>
       <content:encoded><![CDATA[<p>The 1A experience will be divided into 4 different sections including the transition from highschool to university, courses in 1A, the COOP search, as well as some random lesson that I learned.</p>
 <h2 id="the-transition">The Transition</h2>
+<p>Transitioning into university is really difficult. We now all of the sudden have to do our own laundry, make our own food, and manage our time all by ourselves. This is a completely new experience and is an exciting thing. However, you will soon find that things start to pile up and your day now goes in a blink of an eye.</p>
+<p>And for me, after the first 2 weeks, I started to feel homesick and wanted to leave Waterloo and go home.</p>
+<p>So the only thing I would suggest is to put yourself out there and try to make lots of friends. This will greatly take away the emptiness and make the transition a lot easier.</p>
 <h2 id="1a-courses">1A Courses</h2>
+<h4 id="engl-192">ENGL 192</h4>
+<p>Name of the course: Communication in the Engineering Profession<br>
+Rating: 3/5</p>
+<p>I think most engineering students picked engineering as their university major hoping that they will now be able to only worry about STEM related things and never touch English ever again for the rest of their lives.</p>
+<p>WELL GUESS WHAT :DDDD</p>
+<p>Welcome to ENGL 192!!!</p>
+<p>This course focuses on how to effectively communicate in the world of engineering. It is also the only course that is taught in smaller class sizes ranging from 20-25 students for each section. The way the course is delivered varies based on the professor but is usually consisted of writing a research paper, a panel presentation on the paper, and some weekly written journals that reflects your learning throughout the course.</p>
+<p>I think the course itself is useful and interesting and they do teach a few important concepts including IEEE format, how to communicate in a diverse work place, how to read and find published essays, and etc. However, one of the reasons why I disliked the course was the overall atmosphere of the class. My fellow classmates seem to think that this course is completely useless and a waste of time. Hence, they would be doing anything but actively participating in the class and they never tried to engage in group discussions. This really took away from the class and made the course a lot less fun and engaging.</p>
+<h4 id="ece-105">ECE 105</h4>
+<p>Name of the course: Classical Mechanics
+Rating: 4/5</p>
+<p>This course is probably one of the hardest course in the term but is definitely doable. The first half of the course is mostly just highschool review with more complex questions and the use of variables instead of numbers in calculations. The latter half starts to discuss topics that are not taught in highschool such as angular motion, simple harmonic motion, polleys, and more.</p>
+<p>Although I did horrible in the course, I still think that it is very doable and if you do the work, you could easily score above 80%. All that&rsquo;s needed is to do lots of practice problems and try to understand the concepts as soon as they are being taught in class.</p>
+<h4 id="ece-150">ECE 150</h4>
+<p>Name of the course: Fundamentals of Programming
+Rating: 4/5</p>
+<p>This course teaches the fundamentals of programming in C++. It goes from basic syntax to memory allocation to OOP then to some elementary data structures. The course itself is really staight forward and if you attend all the lectures, you should be able to do decently on the course.</p>
+<p>I did this course in Fall 2023 and the final exam was extremly long. The questions themselves were not difficult but there were way too many questions. Other than that the course was pretty easy.</p>
+<h4 id="ece-190">ECE 190</h4>
+<p>Name of the course: Engineering Profession and Practice
+Rating: 4/5</p>
+<p>This basically talks about what computer engineering is and teaches some basic engineering concepts. The course load here is really light and is basically a free course for people to take a break from the other things that are happening in life.</p>
+<h4 id="math-115">MATH 115</h4>
+<p>Name of the course: Linear Algebra for Engineering
+Rating: 3/5</p>
+<p>The prof was really fun and taught the course really well. However I personally found it really difficult to actually understand what was happening and I feel that I only learned the steps to do the questions in the exam and learned nothing about linear algebra and how it works under the hood.</p>
+<p>I also overslept and was late to the exam by 30 minutes. (Pro tip don&rsquo;t be late to exam)</p>
+<h4 id="math-117">MATH 117</h4>
+<p>Name of the course: Calculus 1 for Engineering
+Rating: 2/5</p>
+<p>Our prof tired her best but still did not do a good job on the teaching part. However, the material is basically all of AP Calc AB so if you did that in highschool, you should find this course relatively easy.</p>
+<h4 id="ece-198">ECE 198</h4>
+<p>Name of the course: Project Studio
+Rating: 3/5</p>
+<p>This course was not ok, students are expected to create something using a STM32 board with almost 0 help from the instructor. According to the professors they are trying to minmic what its like to be an engineering in the real world. OK FINE. However, they also said too bad to the fact that TAs are marking differenly and their expectations varies by a huge amount and said that some people get customers that are harder to deal with where as the others get customers that are more easy going.</p>
+<p>The good thing is that this allows you to build a solid connection with your partner as you will be malding together all the time and staying up late to try to get the sensors to connect and the code to work on STM32.</p>
 <h2 id="coop">COOP</h2>
+<p><strong>If you have the chance, CHOOSE STREAM 8 INSTEAD OF STREAM 4</strong></p>
+<p>I am a stream 4 engineer and I did not like finding COOP in 1A. You are basically trying to find jobs as a highschool grad and is all of a sudden competing with all the cracked fellow classmates and upper years that already have a tone of experience.</p>
+<p>And the job searching process tends to take a lot of energy from you. I tend to find it really hard to focuse on studying when you kept on thinking about coop on the back of your mind. And when I eventually got an interview, my attention would instantly shift torwards that and will no longer be able to focus on my school work.</p>
+<p>With that being said, the only good thing about Stream 4 is that we get to not have our back to back study term in first year. We can take this time to recover from 1A and take a break from studying.</p>
 <h2 id="random-tips">Random Tips</h2>
+<p>CMH has free laundry machines LOL</p>
 ]]></content:encoded>
     </item>
     <item>
       <title>Hugo Site Tutorial</title>
-      <link>http://localhost:1313/hugo-site-tutorial/</link>
+      <link>https://tudourocky.github.io/hugo-site-tutorial/</link>
       <pubDate>Tue, 27 Feb 2024 21:22:21 -0500</pubDate><author>shaolong.chen@outlook.it (Shaolong Chen)</author>
-      <guid>http://localhost:1313/hugo-site-tutorial/</guid>
+      <guid>https://tudourocky.github.io/hugo-site-tutorial/</guid>
       <description>How to create a blog using Hugo and Github Pages Introduction on Hugo and Github Pages What is Github Pages Github Pages is a group of static web pages that are hosted and deployed through Github.
 What is Hugo Hugo is a Static Site Generator written in Go to translate Markdown files into HTML files.
 Prerequisites Understanding of basic command-line commands Installed Git and Git basics A GitHub account A code editor such as VSCode Install Hugo You will need a package manager to install the required packages.</description>
