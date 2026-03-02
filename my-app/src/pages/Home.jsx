@@ -16,7 +16,7 @@ function Home({ theme, setTheme }) {
       </div>
 
       <h1 className="name">Allan</h1>
-      <p className="subtitle">Computer Engineering @ University, currently @ Company.</p>
+      <p className="subtitle">Computer Engineering @ University, currently @ Wind River.</p>
 
       <hr className="divider" />
 

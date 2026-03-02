@@ -40,7 +40,7 @@ function BlogPost() {
 
       <div className="post-header">
         <div className="prompt-line" style={{ marginBottom: '0.5rem' }}>
-          &gt; $ cat {slug}.md
+          &gt; $ cat {slug}.md<span className="cursor-blink" />
         </div>
         <span className="post-date">{post.date}</span>
       </div>
