@@ -15,7 +15,7 @@ function App() {
   }, [theme])
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/PortfolioV2">
       <Routes>
         <Route path="/" element={<Home theme={theme} setTheme={setTheme} />} />
         <Route path="/blog/:slug" element={<BlogPost />} />
