@@ -1,0 +1,63 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg: #22223b;
+  --text: #f2e9e4;
+  --text-muted: #9a8c98;
+  --accent: #c9ada7;
+  --link: #c9ada7;
+  --link-hover: #f2e9e4;
+  --divider: #4a4e69;
+  --prompt: #c9ada7;
+  --selection-bg: #4a4e69;
+
+  font-family: 'Source Code Pro', 'Fira Code', 'Cascadia Code', monospace;
+  line-height: 1.7;
+  font-weight: 400;
+  color: var(--text);
+  background-color: var(--bg);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[data-theme="light"] {
+  --bg: #f2e9e4;
+  --text: #22223b;
+  --text-muted: #4a4e69;
+  --accent: #9a8c98;
+  --link: #4a4e69;
+  --link-hover: #22223b;
+  --divider: #c9ada7;
+  --prompt: #9a8c98;
+  --selection-bg: #c9ada7;
+}
+
+::selection {
+  background: var(--selection-bg);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+a {
+  color: var(--link);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: var(--link-hover);
+}
