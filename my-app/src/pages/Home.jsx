@@ -2,6 +2,27 @@ import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { getAllPosts } from '../utils/posts'
 
+const projects = [
+  {
+    title: 'Insight Wallet',
+    desc: 'Full-stack personal finance app featuring real-time budget insights, Cohere API-powered saving plans, and automated bank statement processing.',
+    tags: ['Python', 'FastAPI', 'React', 'Cohere API'],
+    href: 'https://github.com/tudourocky/insightwallet',
+  },
+  {
+    title: 'HIIT Survey',
+    desc: 'Real-time computer vision pipeline using MediaPipe to detect 11 distinct exercises at 10 FPS. Uses deterministic geometric algorithms instead of heavy ML models.',
+    tags: ['Python', 'FastAPI', 'MediaPipe', 'OpenAI API'],
+    href: 'https://github.com/tudourocky/hiitsurvey',
+  },
+  {
+    title: 'Oliver (WAT.ai)',
+    desc: 'High-performance RAG virtual assistant using LangChain and Supabase Vector Search. Orchestrates multi-agent systems for complex query validation.',
+    tags: ['Python', 'FastAPI', 'LangChain', 'Supabase'],
+    href: 'https://github.com/XiandaDu/WatAIOliver',
+  },
+]
+
 function Home({ theme, setTheme }) {
   const [posts, setPosts] = useState([])
 
@@ -15,7 +36,7 @@ function Home({ theme, setTheme }) {
         &gt; $ cd ~<span className="cursor-blink" />
       </div>
 
-      <h1 className="name">Allan</h1>
+      <h1 className="name">Allan Su</h1>
       <p className="subtitle">Computer Engineering @ University, currently @ Wind River.</p>
 
       <hr className="divider" />
@@ -50,7 +71,7 @@ function Home({ theme, setTheme }) {
           <a className="company" href="https://www.windriver.com/" target="_blank" rel="noopener noreferrer">Wind River</a>
         </li>
         <li>
-          Software development at{' '}
+          Internal Tools at{' '}
           <a className="company" href="https://www.mhi.com/group/mhica/" target="_blank" rel="noopener noreferrer">MHI Canada Aerospace</a>
         </li>
         <li>
@@ -60,7 +81,35 @@ function Home({ theme, setTheme }) {
       </ul>
 
       <div className="section-prompt" style={{ marginTop: '1.2rem' }}>
-        &gt; <span className="dollar">$</span> blog (inspired by @Xierumeng’s Blog )
+        &gt; <span className="dollar">$</span> projects
+      </div>
+      <div className="project-terminal-output">
+        {projects.map((project) => (
+          <div key={project.title} className="terminal-project-entry">
+            <div className="terminal-project-header">
+              <a 
+                href={project.href}
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="terminal-project-title"
+              >
+                {project.title}/
+              </a>
+            </div>
+            <div className="terminal-project-details">
+              <div className="terminal-line comment">
+                <span className="comment-char">#</span> {project.desc}
+              </div>
+              <div className="terminal-line tags">
+                [{project.tags.join(', ')}]
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+
+      <div className="section-prompt" style={{ marginTop: '1.2rem' }}>
+        &gt; <span className="dollar">$</span> blog (inspired by @Xierumeng{"\u2019"}s Blog )
       </div>
       <ul className="blog-list">
         {posts.map((post) => (

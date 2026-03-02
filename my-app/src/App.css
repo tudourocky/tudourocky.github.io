@@ -153,6 +153,81 @@
   line-height: 1.5;
 }
 
+/* Projects — Terminal Style */
+.project-terminal-output {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-bottom: 0.5rem;
+  font-family: monospace;
+}
+
+.terminal-project-entry {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.terminal-project-header {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: baseline;
+  color: var(--text-muted);
+  font-size: 0.85rem;
+}
+
+.terminal-mode {
+  color: var(--accent);
+}
+
+.terminal-project-title {
+  color: var(--link);
+  font-weight: 400;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.2s ease;
+}
+
+.terminal-project-title:hover {
+  color: var(--link-hover);
+  text-decoration: none;
+}
+
+.terminal-project-details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  padding-left: 0;
+  margin-top: 0.2rem;
+  font-size: 0.9rem;
+}
+
+.terminal-line {
+  display: block;
+  line-height: 1.5;
+}
+
+.terminal-line.comment {
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+.terminal-line.tags {
+  color: var(--text);
+}
+
+.prompt-char {
+  color: var(--accent);
+  margin-right: 0.5rem;
+}
+
+.comment-char {
+  color: var(--text-muted);
+  opacity: 0.5;
+  margin-right: 0.5rem;
+}
+
 /* Theme toggle */
 .theme-toggle {
   display: flex;
@@ -350,6 +425,15 @@
   .blog-link {
     flex-direction: column;
     gap: 0;
+  }
+
+  .terminal-project-header {
+    gap: 0.5rem;
+    font-size: 0.8rem;
+  }
+  
+  .terminal-project-details {
+    padding-left: 0.5rem;
   }
 
   .post-content h1 {
