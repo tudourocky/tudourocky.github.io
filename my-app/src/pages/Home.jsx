@@ -109,7 +109,7 @@ function Home({ theme, setTheme }) {
       </div>
 
       <div className="section-prompt" style={{ marginTop: '1.2rem' }}>
-        &gt; <span className="dollar">$</span> blog (inspired by @Xierumeng{"\u2019"}s Blog )
+        &gt; <span className="dollar">$</span> blog (inspired by @Xierumeng{"\u2019"}s blog)
       </div>
       <ul className="blog-list">
         {posts.map((post) => (
