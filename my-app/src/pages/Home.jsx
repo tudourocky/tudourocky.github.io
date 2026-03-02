@@ -37,7 +37,7 @@ function Home({ theme, setTheme }) {
       </div>
 
       <h1 className="name">Allan Su</h1>
-      <p className="subtitle">Computer Engineering @ University, currently @ Wind River.</p>
+      <p className="subtitle">Computer Engineering @ UWaterloo, currently @ Wind River.</p>
 
       <hr className="divider" />
 

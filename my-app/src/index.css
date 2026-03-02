@@ -7,15 +7,21 @@
 }
 
 :root {
-  --bg: #22223b;
-  --text: #f2e9e4;
-  --text-muted: #9a8c98;
-  --accent: #c9ada7;
-  --link: #c9ada7;
-  --link-hover: #f2e9e4;
-  --divider: #4a4e69;
-  --prompt: #c9ada7;
-  --selection-bg: #4a4e69;
+  --black: #000000;
+  --prussian-blue: #14213d;
+  --orange: #fca311;
+  --alabaster: #e5e5e5;
+  --white: #ffffff;
+
+  --bg: #14213d;
+  --text: #e5e5e5;
+  --text-muted: #8893a7;
+  --accent: #fca311;
+  --link: #fca311;
+  --link-hover: #ffffff;
+  --divider: #243553;
+  --prompt: #fca311;
+  --selection-bg: #243553;
 
   font-family: 'Source Code Pro', 'Fira Code', 'Cascadia Code', monospace;
   line-height: 1.7;
@@ -29,15 +35,15 @@
 }
 
 [data-theme="light"] {
-  --bg: #f2e9e4;
-  --text: #22223b;
-  --text-muted: #4a4e69;
-  --accent: #9a8c98;
-  --link: #4a4e69;
-  --link-hover: #22223b;
-  --divider: #c9ada7;
-  --prompt: #9a8c98;
-  --selection-bg: #c9ada7;
+  --bg: #e5e5e5;
+  --text: #14213d;
+  --text-muted: #4a5568;
+  --accent: #fca311;
+  --link: #14213d;
+  --link-hover: #000000;
+  --divider: #c8c8c8;
+  --prompt: #fca311;
+  --selection-bg: #c8c8c8;
 }
 
 ::selection {
