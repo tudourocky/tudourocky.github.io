@@ -28,6 +28,7 @@ export const projects = [
     desc: '2-player fighting game built in Unity 2D with a full combat system, health bars, and map selection. All sprites, animations, and music created from scratch using Aseprite and Bosca Ceoil.',
     tags: ['C#', 'Unity', 'Aseprite', 'Bosca Ceoil'],
     href: 'https://github.com/tudourocky/platformer',
+    image: '/images/platformer.gif',
   },
 ]
 
