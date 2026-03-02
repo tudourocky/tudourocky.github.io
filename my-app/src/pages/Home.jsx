@@ -2,24 +2,32 @@ import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { getAllPosts } from '../utils/posts'
 
-const projects = [
+export const projects = [
   {
     title: 'Insight Wallet',
     desc: 'Full-stack personal finance app featuring real-time budget insights, Cohere API-powered saving plans, and automated bank statement processing.',
     tags: ['Python', 'FastAPI', 'React', 'Cohere API'],
     href: 'https://github.com/tudourocky/insightwallet',
+    image: '/images/insightwallet.png',
   },
   {
     title: 'HIIT Survey',
     desc: 'Real-time computer vision pipeline using MediaPipe to detect 11 distinct exercises at 10 FPS. Uses deterministic geometric algorithms instead of heavy ML models.',
     tags: ['Python', 'FastAPI', 'MediaPipe', 'OpenAI API'],
     href: 'https://github.com/tudourocky/hiitsurvey',
+    image: '/images/demo.gif',
   },
   {
     title: 'Oliver (WAT.ai)',
     desc: 'High-performance RAG virtual assistant using LangChain and Supabase Vector Search. Orchestrates multi-agent systems for complex query validation.',
     tags: ['Python', 'FastAPI', 'LangChain', 'Supabase'],
     href: 'https://github.com/XiandaDu/WatAIOliver',
+  },
+  {
+    title: 'Platformer Fighters',
+    desc: '2-player fighting game built in Unity 2D with a full combat system, health bars, and map selection. All sprites, animations, and music created from scratch using Aseprite and Bosca Ceoil.',
+    tags: ['C#', 'Unity', 'Aseprite', 'Bosca Ceoil'],
+    href: 'https://github.com/tudourocky/platformer',
   },
 ]
 
@@ -84,7 +92,7 @@ function Home({ theme, setTheme }) {
         &gt; <span className="dollar">$</span> projects
       </div>
       <div className="project-terminal-output">
-        {projects.map((project) => (
+        {projects.slice(0, 3).map((project) => (
           <div key={project.title} className="terminal-project-entry">
             <div className="terminal-project-header">
               <a 
@@ -107,12 +115,17 @@ function Home({ theme, setTheme }) {
           </div>
         ))}
       </div>
+      {projects.length > 3 && (
+        <div className="view-all">
+          <Link to="/projects" className="view-all-link">view all projects →</Link>
+        </div>
+      )}
 
       <div className="section-prompt" style={{ marginTop: '1.2rem' }}>
         &gt; <span className="dollar">$</span> blog (inspired by @Xierumeng{"\u2019"}s blog)
       </div>
       <ul className="blog-list">
-        {posts.map((post) => (
+        {posts.slice(0, 3).map((post) => (
           <li key={post.slug}>
             <Link to={`/blog/${post.slug}`} className="blog-link">
               <span className="blog-title">{post.title}</span>
@@ -122,6 +135,11 @@ function Home({ theme, setTheme }) {
           </li>
         ))}
       </ul>
+      {posts.length > 3 && (
+        <div className="view-all">
+          <Link to="/blog" className="view-all-link">view all posts →</Link>
+        </div>
+      )}
 
       <hr className="divider" />
 
