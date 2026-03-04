@@ -4,14 +4,14 @@ const markdownFiles = import.meta.glob('../posts/*.md', {
 });
 
 function parseFrontmatter(raw) {
-  const match = raw.match(/^---\n([\s\S]*?)\n---\n([\s\S]*)$/);
+  const match = raw.match(/^---\r?\n([\s\S]*?)\r?\n---\r?\n([\s\S]*)$/);
   if (!match) return { metadata: {}, content: raw };
 
   const frontmatter = match[1];
   const content = match[2];
   const metadata = {};
 
-  for (const line of frontmatter.split('\n')) {
+  for (const line of frontmatter.split(/\r?\n/)) {
     const idx = line.indexOf(':');
     if (idx === -1) continue;
     const key = line.slice(0, idx).trim();
